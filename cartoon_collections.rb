@@ -11,7 +11,7 @@ def summon_captain_planet (elements)
   elements.each do |element|
     element = element.capitalize + '!'
   end
-  elements
+  
 end
 
 def long_planeteer_calls# code an argument here
