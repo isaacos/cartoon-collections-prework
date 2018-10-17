@@ -8,10 +8,12 @@ end
 
 def summon_captain_planet (elements)
   
-  elements.each do |element|
-    element = element.capitalize + '!'
-  end
+  new_array = []
   
+  elements.each do |element|
+    new_array.push(element.capitalize + '!')
+  end
+ new_array 
 end
 
 def long_planeteer_calls# code an argument here
