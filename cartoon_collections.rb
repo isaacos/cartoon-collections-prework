@@ -16,8 +16,12 @@ def summon_captain_planet (elements)
  new_array 
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls (plants_list)
+  
+  plants_list.any? do |plant|
+    return true if plant.length > 4
+  end
+  return false
 end
 
 def find_the_cheese# code an argument here
